@@ -3,10 +3,13 @@ import "./globals.css";
 
 const googleSans = Google_Sans({
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata = {
-  title: "Bem vindo a nova era.",
+  title: "Em Construção... | Clone TabNews",
+  description:
+    "Site em construção. Acompanhe o total atualizado de publicações feitas no TabNews oficial.",
 };
 
 export default function RootLayout({ children }) {
